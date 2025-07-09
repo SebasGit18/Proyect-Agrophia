@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const cardContainer = document.querySelector(".card-container");
+  const cardContainer = document.querySelector(".card__container");
 
   if (cardContainer) {
     fetch("/frontend/public/views/components/cards.html")
