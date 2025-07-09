@@ -1,0 +1,52 @@
+/* Reset general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: var();
+  }
+  
+  /* Contenedor del buscador con ícono a la izquierda */
+  .search-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 5vh auto 1rem;
+    background: var(--white);
+    border: 1px solid var(--gray-900);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .search__icon {
+    color: var(--gray-900);
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center; /* ✅ Centra verticalmente el ícono */
+  }
+
+  .filter__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-900);
+  }
+  
+  #buscador {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: var(--fs-xxxs);
+    background: transparent; /* ✅ Elimina fondo blanco heredado */
+    color: var(--gray-900);
+    padding: 0.4rem 0; /* ✅ Ajusta verticalmente */
+  }
+  
+  
+
+  
