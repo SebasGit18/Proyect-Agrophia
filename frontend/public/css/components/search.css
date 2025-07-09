@@ -6,16 +6,16 @@
   }
   
   body {
-    font-family: var();
+    font-family: var(--main-font);
   }
   
-  /* Contenedor del buscador con ícono a la izquierda */
+  /*Contenedor principal*/
   .search-container {
     display: flex;
     align-items: center;
     width: 80%;
     max-width: 500px;
-    margin: 5vh auto 1rem;
+    margin: 5vh auto 1rem; /*5vh es el 5% de la altura de la ventana, auto = margen derecho e izquierdo, 1rem = margen inferior.*/
     background: var(--white);
     border: 1px solid var(--gray-900);
     border-radius: 8px;
@@ -27,7 +27,7 @@
     font-size: 1.2rem;
     margin-right: 0.5rem;
     display: flex;
-    align-items: center; /* ✅ Centra verticalmente el ícono */
+    align-items: center; /*Centra verticalmente el ícono */
   }
 
   .filter__icon {
@@ -37,16 +37,13 @@
     color: var(--gray-900);
   }
   
+  /*Style input*/
   #buscador {
     flex: 1;
     border: none;
     outline: none;
     font-size: var(--fs-xxxs);
-    background: transparent; /* ✅ Elimina fondo blanco heredado */
+    background: transparent; 
     color: var(--gray-900);
-    padding: 0.4rem 0; /* ✅ Ajusta verticalmente */
+    padding: 0.4rem 0;
   }
-  
-  
-
-  
