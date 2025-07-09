@@ -58,30 +58,3 @@
 
 } 
 
-/* @media (min-width: 768px) {
-    .navbar__list {
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-        flex-grow: 1;
-        justify-content: space-evenly;
-    }
-} */
-
-/* @media (min-width: 768px) {
-  .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .navbar__group {
-    flex-direction: row;
-  }
-
-  .navbar__list {
-    flex-direction: row;
-    gap: 40px;
-  }
-} */
